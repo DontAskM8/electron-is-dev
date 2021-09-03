@@ -1,5 +1,7 @@
 'use strict';
-const electron = require('electron');
+var electron = require('electron');
+// has `ipcrenderer` means renderer (?)
+if(electron.ipcRenderer) electron = require("@electron/remote")
 
 if (typeof electron === 'string') {
 	throw new TypeError('Not running in an Electron environment!');
