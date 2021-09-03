@@ -1,7 +1,3 @@
-# Install
-
-> npm install https://github.com/DontAskM8/electron-is-dev/tarball/main
-
 # electron-is-dev
 
 > Check if [Electron](https://electronjs.org) is running in development
@@ -13,7 +9,7 @@ This package must be used from the Electron main process.
 ## Install
 
 ```
-$ npm install electron-is-dev
+$ npm install https://github.com/DontAskM8/electron-is-dev/tarball/main
 ```
 
 *Requires Electron 3 or later.*
