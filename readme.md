@@ -1,3 +1,7 @@
+# Install
+
+> npm install https://github.com/DontAskM8/electron-is-dev/tarball/main
+
 # electron-is-dev
 
 > Check if [Electron](https://electronjs.org) is running in development
